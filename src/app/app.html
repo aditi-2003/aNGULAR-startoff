@@ -1,5 +1,6 @@
-<div>
-  <h1>CWH to List App</h1>
-  <p>Welcome to the CWH to List Application!</p>
+<h1>ToDo App</h1>
+<div> 
+  <app-todos></app-todos>
+  <app-child [message]="parentMessage" (clicked)="onChildClick()"></app-child>
 
 </div>
